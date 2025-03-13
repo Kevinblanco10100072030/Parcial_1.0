@@ -1,11 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEVIN BLANCO</title>
+    <title>BANCO CAJA SOCIAL</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        /* Centrar el icono de inicio */
+        .home-icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        /* Centrar el logo del banco */
+        .bank-logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        /* Menú de navegación */
+        .menu-nav {
+            display: flex;
+            justify-content: center; 
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .menu-nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease;
+        }
+
+        .menu-nav a:hover {
+            transform: scale(1.1);
+        }
+
+        /* Sección de contenido */
+        .content {
+            margin-top: 20px;
+            text-align: justify;
+        }
+
+        /* Redes sociales */
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
-    <h1>PARCIAL 1</h1>
+
+    <div class="container">
+        <h1>BANCO CAJA SOCIAL</h1>
+
+        <!-- Icono de inicio -->
+        <div class="home-icon">
+            <a href="index.html">  
+                <img src="Imagenes/Casa icono.png" alt="Inicio" title="Ir al inicio" width="30px">
+            </a>
+        </div>
+
+        <!-- Logo del Banco -->
+        <div class="bank-logo">
+            <img src="Imagenes/Banco caja social.jpeg" alt="Logo Banco Caja Social" width="200px">
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="menu-nav">
+            <a href="Paginas/Contacto.html">
+                <img src="Imagenes/Contacto icono.png" alt="Contactos" title="Ir a Contactos" width="40px">
+            </a>
+            <a href="Paginas/Servicio.html">
+                <img src="Imagenes/Servicio icono.png" alt="Servicios" title="Ir a Servicios" width="40px">
+            </a>
+        </nav>
+
+        <!-- Sección de contenido con 5 párrafos de Lorem Ipsum -->
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odit nihil quasi sapiente ratione adipisci magnam doloribus exercitationem, nobis illo nostrum velit ipsa ipsum dolore. Laboriosam hic odio dolorem ducimus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nam doloremque soluta consequatur voluptates, totam, error animi laudantium aut, optio architecto dolores eveniet nemo repellat autem ex et dolorem culpa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia deleniti culpa inventore ratione praesentium vitae neque illum, ad error et. Sit magnam debitis placeat autem repellat repudiandae laudantium asperiores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi inventore aperiam deserunt obcaecati. Tempora dignissimos recusandae in fuga delectus porro debitis iure laborum, neque blanditiis quas rerum aliquid id!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos praesentium similique aliquam, fuga doloremque obcaecati, labore, fugit ipsum illum iure eius ipsam repellat iste temporibus consequatur est numquam! Alias.</p>
+
+        </div>
+
+        <!-- Redes sociales -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <img src="Imagenes/Facebook Logo.png" alt="Facebook" width="45px">
+                Facebook
+            </a>
+            
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                <img src="Imagenes/Instagram Logo.png" alt="Instagram" width="45px">
+                Instagram
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="Imagenes/Linkedin Logo.png" alt="LinkedIn" width="45px">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+
 </body>
 </html>
